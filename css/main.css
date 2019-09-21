@@ -14,7 +14,9 @@ h1{
     text-align: center; 
     text-shadow: 2px 2px black;
     font-size: 3.5em;
-    background-color: navy
+    background-color: navy;
+    border-radius: 7px;
+    line-height: 2em;
   }
 img{
     float: right;
@@ -23,9 +25,23 @@ img{
     border: solid #a43134;
     display: flex;
     width: 12%;
+    border-radius: 7px;
+}
+h2{
+  padding: 5px;
+  border-bottom: solid #a43134;
 }
 footer{
     background-color: navy;
     color: whitesmoke;
     text-align: center; 
+    border-radius: 7px;
+}
+#white{
+  color: whitesmoke;
+}
+ul{
+  font-size: 1.1em;
+  margin: 1.5em;
+  line-height: 1.5em;
 }
