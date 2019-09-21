@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Roboto');
+#content {
+    width: 75%; 
+     margin: 0 auto; 
+   }
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  }
+h1{
+    color: #a43134;
+    font-family: "Assistant", sans-serif;
+    font-weight: bold;
+    text-align: center; 
+    text-shadow: 2px 2px black;
+    font-size: 3.5em;
+    background-color: navy
+  }
+img{
+    float: right;
+    margin-right: 2em;
+    margin-top: .3em;
+    border: solid #a43134;
+    display: flex;
+    width: 12%;
+}
+footer{
+    background-color: navy;
+    color: whitesmoke;
+    text-align: center; 
+}
