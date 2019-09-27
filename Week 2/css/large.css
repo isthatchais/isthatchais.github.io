@@ -1,0 +1,13 @@
+@media only screen and (min-width: 75.3em) {
+    #myPic{
+        float: right;
+        margin-right: 2em;
+        margin-top: .3em;
+    }
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1em;
+    
+    }
+}
