@@ -12,6 +12,10 @@ h1, h2, h3{
 #icon{
     display: flex;   
 }
+#colors{
+    display: flex;
+    width: 100%;
+}
 header,
 footer {
     background-color: #f2da3c;
