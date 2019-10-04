@@ -1,0 +1,10 @@
+@media only screen and (min-width: 75.3em) {
+    #icon{
+        float: left;
+        margin-top: .2em;
+        margin-left: .2em;
+    }
+    nav{
+
+    }
+}

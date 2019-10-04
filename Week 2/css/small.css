@@ -52,3 +52,7 @@ h3{
     background-color: whitesmoke;
     padding: 1em;
 }
+#home{
+  float: left;
+  margin: 1em;
+}
