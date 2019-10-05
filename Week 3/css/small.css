@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Varela+Round&display=swap');
 body {
     font-family: "Varela Round", sans-serif;
-    width: 60%;
     margin: 0 auto;
     background-color: #91f2ff;
+    padding: .5em;
 }
 h1, h2, h3{
     margin: 0;
@@ -11,9 +11,6 @@ h1, h2, h3{
     font-family: "Anton", sans-serif;
     letter-spacing: .15em;
     padding-top: 1.5em;
-}
-#icon{
-    display: flex;   
 }
 #colors{
     display: flex;
@@ -51,4 +48,8 @@ nav li a {
 nav a:hover {
     background-color: #3ce8e2;
     color: black
+}
+#icon{
+    display: flex;
+    justify-content: center;
 }
