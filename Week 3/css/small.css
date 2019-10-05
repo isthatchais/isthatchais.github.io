@@ -6,8 +6,11 @@ body {
     background-color: #91f2ff;
 }
 h1, h2, h3{
+    margin: 0;
+    padding: 0;
     font-family: "Anton", sans-serif;
     letter-spacing: .15em;
+    padding-top: 1.5em;
 }
 #icon{
     display: flex;   
@@ -19,7 +22,7 @@ h1, h2, h3{
 header,
 footer {
     background-color: #f2da3c;
-    padding: .2em;
+    padding: .3em;
 }
 footer{
     align-items: center;
@@ -30,7 +33,6 @@ footer{
 nav {
 	background-color: #36454f;
 	text-align: center;
-	box-shadow: 0 2px 15px gray;
 }
 nav ul {
 	list-style-type: none;
