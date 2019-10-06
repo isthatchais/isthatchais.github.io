@@ -12,7 +12,7 @@ h1, h2, h3{
     letter-spacing: .15em;
     padding-top: 1.5em;
 }
-#colors{
+.fullWidth{
     display: flex;
     width: 100%;
 }
