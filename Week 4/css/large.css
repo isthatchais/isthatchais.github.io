@@ -1,0 +1,9 @@
+@media only screen and (min-width: 60em){
+    #icon{
+        width: 82px;
+        margin: .3em .7em 0 .3em;
+    }
+    h1{
+        font-size: 3em;
+    }
+}
