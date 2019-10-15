@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Anton%7cVarela+Round&display=swap');
+body {
+    font-family: "Varela Round", sans-serif;
+    margin: 0 auto;
+    padding: .5em;
+}
+h1, h2, h3{
+    font-family: "Anton", sans-serif;
+    letter-spacing: .15em;
+}
+h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h2, h3{
+    margin: 0;
+    padding: 0;
+    padding-top: 1em;
+}
+header,
+footer {
+    background-color: #f2da3c;
+    padding: .3em;
+}
+footer{
+    margin: auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+	background-color: #36454f;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li a {
+	display: block;
+	color: #98db59;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+    background-color: #3ce8e2;
+    color: black
+}
+.navigation li {
+    display: none;
+}
+.navigation li:first-child {
+    display: flex;
+    float: right;
+}
+.responsive li {
+	display: block;
+}
+#moto{
+    font-style: italic;
+    margin: .2em 0 .2em 0;
+}
+#icon{
+   width: 52px;
+   float: left;
+   margin: .2em .7em 0 .4em;
+   background-color: #3ce8e2;
+}
+.holder{
+    display: block;
+    border: dashed;
+    background-color: #3ce8e2;
+    line-height: 4em;
+    text-align: center;
+    justify-content: center;
+}
+p{
+    padding-top: 0;
+    margin-top: 0;
+}
