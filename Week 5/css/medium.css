@@ -41,7 +41,7 @@
         box-sizing: border-box;
         border: 1px solid black;
         align-items: center;
-        background-color: #3ce8e2;
+        background-color: rgba(60, 232, 226, 0.7);
     }
     .day{
         color:#f2da3c;
