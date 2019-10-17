@@ -75,7 +75,7 @@ main{
 .responsive li {
 	display: block;
 }
-#moto{
+.moto{
     font-style: italic;
     margin: .2em 0 .2em 0;
 }
@@ -154,4 +154,16 @@ p{
 }
 .articlephotosmall{
     width: 100%;
+}
+.map{
+    display: none;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36454f;
+}
+.contactinformation{
+    color: #f2da3c;
 }
