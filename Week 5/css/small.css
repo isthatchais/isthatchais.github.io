@@ -3,19 +3,27 @@ body {
     font-family: "Varela Round", sans-serif;
     margin: 0 auto;
     padding: .5em;
+    background-image: url("../images/vote.jpg")
 }
 h1, h2, h3{
     font-family: "Anton", sans-serif;
-    letter-spacing: .15em;
 }
 h1{
     margin-bottom: 0;
     padding-bottom: 0;
 }
-h2, h3{
+h2{
     margin: 0;
     padding: 0;
     padding-top: 1em;
+    font-size: 2em;
+}
+h3{
+    font-size: 1.6em;
+    margin: 0;
+    padding: .5em;
+    padding-bottom: 0;
+    border-bottom: 3px solid #36454f;
 }
 header,
 footer {
@@ -26,12 +34,6 @@ footer{
     margin: auto;
     display: block;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-main{
-    margin: auto;
-    display: block;
     align-items: center;
     justify-content: center;
 }
@@ -56,6 +58,12 @@ nav li a {
 nav a:hover {
     background-color: #3ce8e2;
     color: black
+}
+main{
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 .navigation li {
     display: none;
@@ -86,6 +94,64 @@ nav a:hover {
     justify-content: center;
 }
 p{
-    padding-top: 0;
+    margin: .2em;
+}
+.active{
+    font-weight: bold;
+    text-decoration: underline #f2da3c;
+    color: #f2da3c;
+}
+.hero{
+    position: relative;
+    display: block;
+    padding: 0;
+}
+.herophoto{
+    width: 100%;
+}
+.summary{
+    position: absolute;
+    top: .4em;
+    left: .4em;
+    background-color: rgba(60, 232, 226, 1);
+}
+.grid{
+    display: grid;
+    margin: .2em;
+    grid-template-columns: 1fr 1fr;
+    padding: .2em;
+    grid-gap: .2em;
+}
+.condition{
+    text-align: right;
+}
+.value{
+    text-align: left;
+}
+.griditem{
     margin-top: 0;
+    padding: .2em;
+    align-self: center;
+    margin: 0 auto;
+    border-bottom: 3px solid #36454f;
+    background-color: #f2da3c;
+}
+.fiveday{
+    display: none;
+}
+.article{
+    background-color: #3ce8e2;
+    border: 1px solid black;
+}
+.atricletext{
+    display: block;
+    margin: 0 auto;
+    padding: 1.5em;
+    padding-bottom: 0;
+}
+.articlephoto{
+    display: none;
+}
+.articlephotosmall{
+    width: 100%;
 }

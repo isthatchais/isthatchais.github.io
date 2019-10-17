@@ -12,10 +12,10 @@
         flex: 1 1 100%; 
     }
     footer{
-        width: 80%;
+        width: 85%;
     }
     main{
-        width: 75%;
+        width: 80%;
     }
     #icon{
         width: 65px;
@@ -23,5 +23,48 @@
     }
     h1{
         font-size: 2.4em;
+    }
+    .fiveday{
+        display: block;
+    }
+    .forecastgrid{
+        display: grid;
+        justify-content: center;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: .2em;
+        width: 60%;
+    }
+    .day, .weathericon, .temp{
+        display: grid;
+        justify-content: center;
+        box-sizing: border-box;
+        border: 1px solid black;
+        align-items: center;
+        background-color: #3ce8e2;
+    }
+    .day{
+        color:#f2da3c;
+        background-color: #36454f;
+    }
+    .temp{
+        background-color: #f2da3c;
+    }
+    .articlephoto{
+        display: block;
+        float: right;
+        padding: 1em;
+    }
+    .articlephotosmall{
+        display: none;
+    }
+    .summary{
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        background-color: rgba(60, 232, 226, 0.7);
+    }
+    .atricletext{
+        padding: 1.5em;
     }
 }
