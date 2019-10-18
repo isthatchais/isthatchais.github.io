@@ -85,14 +85,6 @@ main{
    margin: .2em .7em 0 .4em;
    background-color: #3ce8e2;
 }
-.holder{
-    display: block;
-    border: dashed;
-    background-color: #3ce8e2;
-    line-height: 4em;
-    text-align: center;
-    justify-content: center;
-}
 p{
     margin: .2em;
 }
@@ -166,4 +158,14 @@ p{
 }
 .contactinformation{
     color: #f2da3c;
+}
+#pancakes{
+    text-align: center;
+    color: #98db59;
+    background-color: #36454f;
+    line-height: 3em;
+    font-style: italic;
+}
+.none{
+    display: none;
 }
