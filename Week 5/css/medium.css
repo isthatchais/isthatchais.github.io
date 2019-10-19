@@ -10,6 +10,7 @@
     }
 	nav ul li { 
         flex: 1 1 100%; 
+        white-space: nowrap;
     }
     footer{
         width: 85%;

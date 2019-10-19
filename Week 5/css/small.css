@@ -69,8 +69,7 @@ main{
     display: none;
 }
 .navigation li:first-child {
-    display: flex;
-    float: right;
+    display: block;
 }
 .responsive li {
 	display: block;
