@@ -56,7 +56,7 @@ nav li a {
 	font-size: 0.95rem;
 }
 nav a:hover {
-    background-color: #3ce8e2;
+    background-color: rgb(60, 232, 226);
     color: black
 }
 main{
@@ -68,11 +68,14 @@ main{
 .navigation li {
     display: none;
 }
-.navigation li:first-child {
-    display: block;
-}
 .responsive li {
 	display: block;
+}
+nav li:first-child {
+    display: block;
+}
+nav li:first-child a {
+    text-align: right;
 }
 .moto{
     font-style: italic;
