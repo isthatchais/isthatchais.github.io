@@ -137,6 +137,7 @@ p{
 .article{
     background-color: #98db59;
     border: 1px solid black;
+    overflow: auto;
 }
 .atricletext{
     display: block;
