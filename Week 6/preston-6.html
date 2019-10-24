@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+<head>
+    <title>Weather Works | Preston Idaho</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Week 6 assignment weather site preston home page for Chais Chang CIT 230">
+    <link rel = "icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href= "css/small.css" rel="stylesheet">
+    <link href= "css/medium.css" rel="stylesheet">
+    <link href= "css/large.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "top">
+    <header>
+        <div id ="pancakes">
+            Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+        </div>
+        <div>
+            <img id = icon src="images/Weather.png" alt="weather works icon">
+        </div>
+        <h1>Weather Works</h1>
+        <div class = "moto">We work hard even if the weather doesn't cooperate. </div>  
+    </header>
+    <nav>
+        <ul class = "navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="preston-5.html">Home</a></li>
+            <li class = "active"><a href="preston-5.html">Preston</a></li>
+            <li><a href="preston-5.html">Soda Springs</a></li>
+            <li><a href="preston-5.html">Fish Haven</a></li>
+            <li><a href="preston-5.html">Gallery</a></li>
+            <li><a href="preston-5.html">Storm Center</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main>
+        <h2>Preston Idaho</h2>
+        <p>The Happy Home of Napoleon Dynamite</p>
+        <div class = "hero">
+            <picture>
+                <source srcset="images/hero800.jpg" media="(min-width: 417px) and (max-width: 959px)">
+                <source srcset="images/hero1200.jpg" media="(min-width: 960px)">
+                <img class = "herophoto" src="images/hero400.jpg" alt="over looking the town from the mountain">
+            </picture>
+            <div class = "summary">
+                <h3 class = "griditem">Weather Summary</h3>
+                <div class = "grid">
+                    <div class = condition>Currently:</div>
+                    <div class = value>Sunny</div>
+                    <div class = condition>Temperature:</div>
+                    <div class = value><span id = "currentTemp">48</span>° F</div>
+                    <div class = condition>Humidity:</div>
+                    <div class = value>37%</div>
+                    <div class = condition>Precipitation:</div>
+                    <div class = value>0 inches</div>
+                    <div class = condition>Wind Speed:</div>
+                    <div class = value><span id = windSpeed>5</span> mph</div>
+                    <div class = condition>Wind Chill:</div>
+                    <div class = value><span id = "windChill"></span>° F</div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div>
+            <div class = "fiveday">
+                <h3>5 day forecast</h3>
+                <br>
+                <div class = "forecastgrid">
+                    <div class = day>Monday</div>
+                    <div class = day>Tuesday</div>
+                    <div class = day>Wednesday</div>
+                    <div class = day>Thursday</div>
+                    <div class = day>Friday</div>
+                    <div class = weathericon><img src="images/sunny.png" alt = "sunny icon"></div>
+                    <div class = weathericon><img src="images/sunny.png" alt = "sunny icon"></div>
+                    <div class = weathericon><img src="images/sunny.png" alt = "sunny icon"></div>
+                    <div class = weathericon><img src="images/sunny.png" alt = "sunny icon"></div>
+                    <div class = weathericon><img src="images/sunny.png" alt = "sunny icon"></div>
+                    <div class = temp>76° F</div>
+                    <div class = temp>71° F</div>
+                    <div class = temp>70° F</div>
+                    <div class = temp>68° F</div>
+                    <div class = temp>72° F</div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class = "article">
+            <h3 class = "articletitle">Heck Yes</h3>
+            <p class = "moto">Napoleon Dynamite</p>
+            <img class= "articlephoto" src="images/weathersite.jpg" alt="nice picture of mountains and clouds I took in the canyon">
+            <p class = "atricletext">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+            </p>
+            <img class= "articlephotosmall" src="images/weathersite.jpg" alt="nice picture of mountains and clouds I took in the canyon">
+        </div>
+        <br>
+        <br>
+        <div class = "contact">
+            <img class = "map" src="images/prestonmap.PNG" alt= "map of Preston Idaho">
+            <div class = "contactinformation">
+                <p>Weather Works</p>
+                <p>39 West Onida St</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <p>(208) 555-0877</p>
+                <p>info@weather.works</p>
+                <a href = "https://twitter.com/?lang=en" target="_blank"><img class = "social" src="images/twitter.png" alt="twitter icon"></a><a href = "https://www.facebook.com/" target="_blank"><img class = "social" src="images/facebook.png" alt="facebook icon"></a><a href = "https://www.youtube.com/" target="_blank"><img class = "social" src="images/youtube.png" alt="youtube icon"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Weather Works | Caribou, Franklin, and Bear Lake Counties | <a href ="../index.html">Assignment Portal</a>
+        <br>
+        <span id="output"></span>
+        </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src = "js/preston-6.js"></script>
+    <script>pancakes()</script>
+    <script>doWindChill()</script>
+    <script>
+        WebFont.load({ google: { families: [
+       'Anton', 'Varela Round'
+        ]}});
+    </script>
+</body>
+</html>

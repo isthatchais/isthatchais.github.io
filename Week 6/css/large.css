@@ -1,0 +1,21 @@
+@media only screen and (min-width: 60em){
+    #icon{
+        width: 82px;
+        margin: .3em .7em 0 .3em;
+    }
+    h1{
+        font-size: 3em;
+    }
+    footer{
+        width: 80%;
+    }
+    main{
+        width: 75%;
+    }
+    .summary{
+        position: absolute;
+        top: 2em;
+        left: 2em;
+        background-color: rgba(60, 232, 226, 0.7);
+    }
+}
