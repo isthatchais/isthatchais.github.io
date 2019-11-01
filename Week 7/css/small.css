@@ -175,16 +175,23 @@ p{
 .gridContainer{
     display: grid;
     gap: 1em;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
+}
+main img[data-src] {
+    filter: blur(0.2em);
 }
 .gridPicture{
+    filter: blur(0em);
+    transition: filter 0.5s;
     width: 100%
 }
 .caption{
     text-align: center;
 }
-picture:hover{
+figure:hover{
     box-shadow: 0 5px 8px 0;
+}
+figure{
+    margin:0 auto;
 }
