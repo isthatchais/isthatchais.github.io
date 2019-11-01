@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+<head>
+    <title>Weather Works | Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Week 7 assignment weather site gallery page for Chais Chang CIT 230">
+    <link rel = "icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href= "css/small.css" rel="stylesheet">
+    <link href= "css/medium.css" rel="stylesheet">
+    <link href= "css/large.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "top">
+    <header>
+        <div id ="pancakes">
+            Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+        </div>
+        <div>
+            <img id = icon src="images/Weather.png" alt="weather works icon">
+        </div>
+        <h1>Weather Works</h1>
+        <div class = "moto">We work hard even if the weather doesn't cooperate. </div>  
+    </header>
+    <nav>
+        <ul class = "navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="preston-5.html">Home</a></li>
+            <li><a href="preston-5.html">Preston</a></li>
+            <li><a href="preston-5.html">Soda Springs</a></li>
+            <li><a href="preston-5.html">Fish Haven</a></li>
+            <li class = "active"><a href="preston-5.html">Gallery</a></li>
+            <li><a href="preston-5.html">Storm Center</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main>
+        <h2>Image Gallery</h2>
+        <div class = "gridContainer">
+        <picture>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/climb300.jpg' alt='rocks trees and sky'>
+            <div class = "caption">beautiful day in the canyon</div>
+        </picture>
+        <picture>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/clouds300.jpg' alt='clouds in the sky'>
+            <div class = "caption">awesome looking clouds in the morning</div>
+        </picture>
+        <picture>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/jtm300.jpg' alt='storm coming in at the park'>
+            <div class = "caption">storm coming in</div>
+        </picture>
+        <picture>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/snow300.jpg' alt='lots of snow'>
+            <div class = "caption">plenty of snow</div>
+        </picture>
+        <picture>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/stormclouds300.jpg' alt='stormc clouds gathering'>
+            <div class = "caption">storm coulds gathering</div>
+        </picture>
+        <picture>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/sunny300.jpg' alt='clear and sunny'>
+            <div class = "caption">clear and sunny</div>
+        </picture>
+        <picture>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/trees300.jpg' alt='large trees'>
+            <div class = "caption">big trees and clear sky</div>
+        </picture>
+        <picture>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/clear300.jpg' alt='clear blue sky'>
+            <div class = "caption">clear blue sky</div>
+        </picture>
+        <picture>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/bryce300.jpg' alt='hoodoos'>
+            <div class = "caption">hoodoos on a clear day</div>
+        </picture>
+    </div>
+    </main>
+    <br>
+    <br>
+    <footer>
+        <p>&copy;Weather Works | Caribou, Franklin, and Bear Lake Counties | <a href ="../index.html">Assignment Portal</a>
+        <br>
+        <span id="output"></span>
+        </p>
+    </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src = "js/gallery.js"></script>
+        <script>
+            WebFont.load({ google: { families: [
+           'Anton', 'Varela Round'
+            ]}});
+        </script>
+        <script>pancakes()</script>
+</body>
+</html>
