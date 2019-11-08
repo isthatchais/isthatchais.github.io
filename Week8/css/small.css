@@ -240,7 +240,7 @@ form label.sbs, form textarea.sbs{
     width: 100%;
 
 }
-form input.submitBtn{
+.submitBtn{
     border: none;
     background-color: #36454f;
     color: #f2da3c;
@@ -255,4 +255,31 @@ form label.top input:required{
 }
 form label.top input:required:valid{
     border-left: green solid 5px;
+}
+.solid{
+    display: block;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: .2rem;
+    width: 100%;
+}
+.big{
+    font-size: 1.2rem;
+}
+.return{
+    display: block;
+    border: none;
+    background-color: #36454f;
+    border-radius: 3px;
+    padding: .8rem 1.5rem;
+    margin: 1rem 0 1rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+.return a{
+    text-decoration: none;
+    text-align: center;
+    color: #f2da3c;
 }

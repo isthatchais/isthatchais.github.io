@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+<head>
+    <title>Weather Works | Storm Center</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Week 8 assignment weather site storm center page for Chais Chang CIT 230">
+    <link rel = "icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href= "css/small.css" rel="stylesheet">
+    <link href= "css/medium.css" rel="stylesheet">
+    <link href= "css/large.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "top">
+    <header>
+        <div id ="pancakes">
+            Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+        </div>
+        <div>
+            <img id = icon src="images/Weather.png" alt="weather works icon">
+        </div>
+        <h1>Weather Works</h1>
+        <div class = "moto">We work hard even if the weather doesn't cooperate. </div>  
+    </header>
+    <nav>
+        <ul class = "navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Week6/preston-6.html">Preston</a></li>
+            <li><a href="../index.html">Soda Springs</a></li>
+            <li><a href="../index.html">Fish Haven</a></li>
+            <li><a href="../Week7/gallery-7.html">Gallery</a></li>
+            <li class = "active"><a href="stormcenter.html">Storm Center</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main>
+        <h2>Storm Report</h2>
+        <div class = "solid">
+        <p class = "big">Your storm reprot has been submitteed. Thank you for using Weather Works. You will hear from us soon.</p>
+        </div>
+        <br>
+        <br>
+        <div class = "return"><a href="stormcenter.html">Return to Storm Center</a></div>
+    </main>
+    <br>
+    <br>
+    <footer>
+        <p>&copy;Weather Works | Caribou, Franklin, and Bear Lake Counties | <a href ="../index.html">Assignment Portal</a>
+        <br>
+        <span id="output"></span>
+        </p>
+    </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src = "js/stormcenter.js"></script>
+        <script>
+            WebFont.load({ google: { families: [
+           'Anton', 'Varela Round'
+            ]}});
+        </script>
+        <script>pancakes()</script>
+</body>
+</html>
