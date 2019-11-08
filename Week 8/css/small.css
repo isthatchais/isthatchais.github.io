@@ -2,8 +2,8 @@ body {
     font-family: "Varela Round", sans-serif;
     margin: 0 auto;
     padding: .5em;
-    /*background-image: url("../images/vote.jpg")*/
-    background-color: #3ce8e2;
+    background-image: url("../images/vote.jpg")
+    /*background-color: #3ce8e2;*/
 }
 h1, h2, h3{
     font-family: "Anton", sans-serif;
@@ -202,7 +202,7 @@ figure{
 }
 /* ---------form---------*/
 form fieldset{
-    margin: 2rem 0;
+    margin: 2rem 0 2rem 0;
     border: 1px solid #36454f;
     border-radius: 5px;
     padding: .5rem;
@@ -213,12 +213,15 @@ form fieldset{
 form legend{
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 form label.top, form div{
     display: block;
     padding-top: 1rem;
     font-size: .8rem;
     box-sizing: border-box;
+    width: 100%;
 }
 form label.top input, form label.top select{
     display: block;
@@ -226,14 +229,16 @@ form label.top input, form label.top select{
     border: 1px solid #36454f;
     border-radius: 3px;
     padding: .8rem;
-    width: 100%;
     max-width: 20rem;
     background-color: #91f2ff;
+    width: 100%;
     box-sizing: border-box;
 }
 form label.sbs, form textarea.sbs{
     display: block;
     padding: .8rem 0;
+    width: 100%;
+
 }
 form input.submitBtn{
     border: none;

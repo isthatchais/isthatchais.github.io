@@ -85,4 +85,7 @@
     .gridContainer{
         grid-template-columns: 1fr 1fr;
     }
+    form fieldset{
+        padding: 1.2rem;
+    }
 }

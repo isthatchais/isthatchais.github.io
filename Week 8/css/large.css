@@ -10,7 +10,7 @@
         width: 80%;
     }
     main{
-        width: 75%;
+        width: 50%;
     }
     .summary{
         position: absolute;
@@ -20,5 +20,8 @@
     }
     .gridContainer{
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    form fieldset{
+        padding: 2rem;
     }
 }
