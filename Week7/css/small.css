@@ -90,10 +90,10 @@ nav li:first-child a {
 p{
     margin: .2em;
 }
-.active{
+.active a{
     font-weight: bold;
-    text-decoration: underline #f2da3c;
-    color: #f2da3c;
+    color: black;
+    background-color: #91f2ff;
 }
 .hero{
     position: relative;
