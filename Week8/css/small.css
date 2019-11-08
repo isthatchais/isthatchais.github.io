@@ -269,6 +269,9 @@ form label.top input:required:valid{
 .big{
     font-size: 1.1rem;
 }
+.noTextDecoration{
+    text-decoration: none;
+}
 .return{
     display: block;
     border: none;
@@ -278,7 +281,6 @@ form label.top input:required:valid{
     margin: 1rem 0 1rem 2%;
     width: 96%;
     max-width: 20rem;
-    text-decoration: none;
     text-align: center;
     color: #f2da3c;
 }
