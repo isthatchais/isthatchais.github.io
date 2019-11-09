@@ -35,7 +35,7 @@ function windChill(tempF, speed) {
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imgOptions = {
-    threshold: 1,
+    threshold: 0,
     rootmargin: "0px 0px 50px 0px"
 };
 
