@@ -1,0 +1,22 @@
+main{
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #e7f0ed;
+    width: 96%;
+    box-shadow: 5px 5px 10px 10px #628ca6;
+}
+h1{
+    text-align: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+    background-color: #7fb9c2;
+    padding: 1rem;
+    border: 1px solid black;
+}
+img{
+    width: 100%
+}
