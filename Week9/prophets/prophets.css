@@ -10,13 +10,41 @@ h1{
 }
 .card{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
     text-align: center;
-    background-color: #7fb9c2;
+    background-color: #e7f0ed;
     padding: 1rem;
-    border: 1px solid black;
 }
 img{
-    width: 100%
+    width: 90%;
+    box-shadow: 3px 3px 5px 5px #628ca6;
+}
+section{
+    border: 1px solid black;
+    background-color: #7fb9c2;
+    padding: 5%;
+    box-shadow: 3px 3px 5px 5px #628ca6;
+}
+h1, h2{
+    color: darkblue;
+    font-weight: bold;
+}
+footer{
+    margin: 0 auto;
+    color: white;
+    background-color: #628ca6;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+@media only screen and (min-width: 40em){
+    .card{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 60em){
+    .card{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
