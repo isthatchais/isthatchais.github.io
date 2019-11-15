@@ -76,10 +76,8 @@ nav li:first-child {
 nav li:first-child a {
     text-align: right;
 }
-/* I had this centered I don't like how it looks*/
 .moto{
     font-style: italic;
-    margin: .2em 0 .2em 0;
 }
 #icon{
    width: 52px;
@@ -87,6 +85,17 @@ nav li:first-child a {
    margin: .2em .7em 0 .4em;
    background-color: #3ce8e2;
 }
+.hdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hdiv #htext {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
 p{
     margin: .2em;
 }

@@ -16,6 +16,7 @@ h2{
     padding: 0;
     padding-top: 1em;
     font-size: 2em;
+    text-align: center;
 }
 h3{
     font-size: 1.6em;
@@ -23,6 +24,7 @@ h3{
     padding: .5em;
     padding-bottom: 0;
     border-bottom: 3px solid #36454f;
+    text-align: center;
 }
 header,
 footer {
@@ -78,13 +80,22 @@ nav li:first-child a {
 }
 .moto{
     font-style: italic;
-    margin: .2em 0 .2em 0;
 }
 #icon{
    width: 52px;
    float: left;
    margin: .2em .7em 0 .4em;
    background-color: #3ce8e2;
+}
+.hdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hdiv #htext {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 p{
     margin: .2em;
