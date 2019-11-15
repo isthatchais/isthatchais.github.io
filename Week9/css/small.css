@@ -96,7 +96,6 @@ nav li:first-child a {
 .hdiv #htext {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
 }
 p{
     margin: .2em;
