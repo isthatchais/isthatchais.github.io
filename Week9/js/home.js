@@ -74,7 +74,7 @@ fetch(requestURL)
 .then(function (jsonObject) {
   const towns = jsonObject["towns"];
   for (let i = 0; i < towns.length; i++) {
-      if (town[i].name == "Fish Haven" || "Preston" || "Soda Springs"){
+      if (towns[i].name == "Fish Haven" || "Preston" || "Soda Springs"){
       let card = document.createElement("section");
       let h3 = document.createElement("h3");
       let motto = document.createElement("i");
@@ -82,17 +82,19 @@ fetch(requestURL)
       let population = document.createElement("p");
       let rain = document.createElement("p");
       let image = document.createElement("img");
-      h3.textContent = town[i].name;
+      h3.textContent = towns[i].name;
       motto.textContent = towns[i].motto;
       year.textContent = 'Year Founded: ' + towns[i].yearFounded;
       population.textContent = 'Population: ' + towns[i].currentPopulation;
       rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
       card.appendChild(h3);
-      card.appendChild(bday);
-      card.appendChild(bplace);
-      card.appendChild(photo);
+      card.appendChild(motto);
+      card.appendChild(year);
+      card.appendChild(population);
+      card.appendChild(rain);
+      card.appendChild(image);
       image.setAttribute('src', towns[i].photo);
       image.setAttribute('alt', towns[i].name); 
-      document.querySelector('div.towncard').appendChild(towncard);}
+      document.querySelector('div.card').appendChild(card);}
 }
 });
