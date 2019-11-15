@@ -5,7 +5,7 @@ body {
     background-image: url("../images/vote.jpg")
     /*background-color: #3ce8e2;*/
 }
-h1, h2, h3, h4{
+h1, h2, h3{
     font-family: "Anton", sans-serif;
 }
 h1{
@@ -303,8 +303,12 @@ form label.top input:required:valid{
     text-align: center;
     align-items: center;
     gap: .5rem;
+    padding: .5rem;
 }
 h4{
     font-size: 1.3em;
     margin-bottom: 3px;
+}
+.card img{
+    width: 100%
 }
