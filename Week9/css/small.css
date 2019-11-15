@@ -5,7 +5,7 @@ body {
     background-image: url("../images/vote.jpg")
     /*background-color: #3ce8e2;*/
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: "Anton", sans-serif;
 }
 h1{
@@ -24,8 +24,8 @@ h3{
     margin: 0;
     padding: .5em;
     padding-bottom: 0;
-    border-bottom: 3px solid #36454f;
     text-align: center;
+    border-bottom: 3px solid #36454f;
 }
 header,
 footer {
@@ -145,7 +145,6 @@ p{
 }
 .article{
     background-color: #98db59;
-    border: 1px solid black;
     overflow: auto;
 }
 .atricletext{
@@ -293,4 +292,19 @@ form label.top input:required:valid{
     max-width: 20rem;
     text-align: center;
     color: #f2da3c;
+}
+.coveredtowns{
+    background-color: #f2da3c;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    gap: .5rem;
+}
+h4{
+    font-size: 1.3em;
+    margin-bottom: 3px;
 }

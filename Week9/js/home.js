@@ -74,26 +74,26 @@ fetch(requestURL)
 .then(function (jsonObject) {
   const towns = jsonObject["towns"];
   for (let i = 0; i < towns.length; i++) {
-      if (towns[i].name == "Fish Haven" || "Preston" || "Soda Springs"){
+      if (towns[i].name === "Fish Haven" || towns[i].name === "Preston" ||  towns[i].name ==="Soda Springs"){
       let card = document.createElement("section");
-      let h3 = document.createElement("h3");
+      let h4 = document.createElement("h4");
       let motto = document.createElement("i");
       let year = document.createElement("p");
       let population = document.createElement("p");
       let rain = document.createElement("p");
       let image = document.createElement("img");
-      h3.textContent = towns[i].name;
+      h4.textContent = towns[i].name;
       motto.textContent = towns[i].motto;
       year.textContent = 'Year Founded: ' + towns[i].yearFounded;
       population.textContent = 'Population: ' + towns[i].currentPopulation;
       rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-      card.appendChild(h3);
+      card.appendChild(h4);
+      card.appendChild(image);
       card.appendChild(motto);
       card.appendChild(year);
       card.appendChild(population);
       card.appendChild(rain);
-      card.appendChild(image);
-      image.setAttribute('src', towns[i].photo);
+      image.setAttribute('src', 'images/' + towns[i].photo);
       image.setAttribute('alt', towns[i].name); 
       document.querySelector('div.card').appendChild(card);}
 }
