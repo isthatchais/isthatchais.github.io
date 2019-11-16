@@ -75,6 +75,7 @@
     }
     .map{
         display: block;
+        border: none;
     }
     .map, .contactinformation{
         width: 48%;
