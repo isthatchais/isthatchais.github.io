@@ -298,7 +298,7 @@ form label.top input:required:valid{
 }
 .card{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     margin: 0 auto;
     text-align: center;
     align-items: center;

@@ -24,4 +24,10 @@
     form fieldset{
         padding: 2rem;
     }
+    .card{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card img{
+        width: 100%;
+    }
 }

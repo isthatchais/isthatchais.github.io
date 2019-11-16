@@ -88,11 +88,11 @@ fetch(requestURL)
       population.textContent = 'Population: ' + towns[i].currentPopulation;
       rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
       card.appendChild(h4);
-      card.appendChild(image);
       card.appendChild(motto);
       card.appendChild(year);
       card.appendChild(population);
       card.appendChild(rain);
+      card.appendChild(image);
       image.setAttribute('src', 'images/' + towns[i].photo);
       image.setAttribute('alt', towns[i].name); 
       document.querySelector('div.card').appendChild(card);}
