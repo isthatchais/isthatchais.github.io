@@ -25,9 +25,16 @@
         padding: 2rem;
     }
     .card{
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     .card img{
         width: 100%;
+    }
+    .card section{
+        display: block;
+    }
+    .card span{
+        width: 100%
     }
 }
