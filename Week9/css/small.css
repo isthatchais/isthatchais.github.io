@@ -305,6 +305,10 @@ form label.top input:required:valid{
     gap: .5rem;
     padding: .5rem;
 }
+.card span{
+    text-align: center;
+    align-items: center;
+}
 h4{
     font-size: 1.3em;
     margin-bottom: 3px;

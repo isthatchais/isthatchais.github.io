@@ -88,11 +88,19 @@
     form fieldset{
         padding: 1.2rem;
     }
-    .card{
-        
+
+    .card section{
+        display: flex;
+        flex-flow: row;
+    }
+    .card section:nth-child(even){
+        flex-flow: row-reverse;
     }
     .card img{
         width: 50%;
-    }*/
+    }
+    .card span{
+        width: 50%
+    }
     
 }

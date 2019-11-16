@@ -76,6 +76,7 @@ fetch(requestURL)
   for (let i = 0; i < towns.length; i++) {
       if (towns[i].name === "Fish Haven" || towns[i].name === "Preston" ||  towns[i].name ==="Soda Springs"){
       let card = document.createElement("section");
+      let span = document.createElement("span");
       let h4 = document.createElement("h4");
       let motto = document.createElement("i");
       let year = document.createElement("p");
@@ -87,11 +88,12 @@ fetch(requestURL)
       year.textContent = 'Year Founded: ' + towns[i].yearFounded;
       population.textContent = 'Population: ' + towns[i].currentPopulation;
       rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-      card.appendChild(h4);
-      card.appendChild(motto);
-      card.appendChild(year);
-      card.appendChild(population);
-      card.appendChild(rain);
+      card.appendChild(span);
+      span.appendChild(h4);
+      span.appendChild(motto);
+      span.appendChild(year);
+      span.appendChild(population);
+      span.appendChild(rain);
       card.appendChild(image);
       image.setAttribute('src', 'images/' + towns[i].photo);
       image.setAttribute('alt', towns[i].name); 
