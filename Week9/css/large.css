@@ -25,17 +25,14 @@
         padding: 2rem;
     }
     .card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card section{
         display: flex;
-        flex-flow: row;
     }
-    .card:nth-child(1){
+    .card section:nth-child(1){
         order: 3;
-    }
-    .card:nth-child(2){
-        order: 1;
-    }
-    .card:nth-child(3){
-        order: 2;
     }
     .card img{
         width: 100%;

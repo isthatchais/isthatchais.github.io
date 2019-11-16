@@ -94,7 +94,7 @@
         display: flex;
         flex-flow: row;
     }
-    .card section:nth-child(even){
+    .card section:nth-child(3){
         flex-flow: row-reverse;
     }
     .card img{
