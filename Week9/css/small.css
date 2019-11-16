@@ -297,8 +297,8 @@ form label.top input:required:valid{
     background-color: #f2da3c;
 }
 .card{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-flow: column;
     margin: 0 auto;
     text-align: center;
     align-items: center;
@@ -315,4 +315,14 @@ h4{
 }
 .card img{
     width: 100%
+}
+
+.card:nth-child(1){
+    order: 3;
+}
+.card:nth-child(2){
+    order: 1;
+}
+.card:nth-child(3){
+    order: 2;
 }

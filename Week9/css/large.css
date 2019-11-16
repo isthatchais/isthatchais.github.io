@@ -28,6 +28,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .card:first-child{
+        grid-row: 1;
+        grid-column: 3;
+    }
     .card img{
         width: 100%;
     }
@@ -36,5 +40,9 @@
     }
     .card span{
         width: 100%
+    }
+    .card:first-child{
+        grid-row: 1;
+        grid-column: 3;
     }
 }
