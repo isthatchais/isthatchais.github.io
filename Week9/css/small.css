@@ -293,9 +293,6 @@ form label.top input:required:valid{
     text-align: center;
     color: #f2da3c;
 }
-.coveredtowns{
-    background-color: #f2da3c;
-}
 .card{
     display: grid;
     grid-template-columns: 1fr;
@@ -304,8 +301,9 @@ form label.top input:required:valid{
     align-items: center;
     gap: .5rem;
     padding: .5rem;
+    background-color: #f2da3c;
 }
-.card span{
+.card section span{
     text-align: center;
     align-items: center;
 }
@@ -314,12 +312,23 @@ h4{
     margin-bottom: 3px;
 }
 .card img{
-    width: 100%
+    width: 100%;
 }
 .card section{
     display: flex;
     flex-flow: column;
+    
 }
 .card section:nth-child(1){
     order: 3;
+}
+.card section p{
+    line-height: 1.5rem;
+}
+.card section i{
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+.card section h4{
+    
 }
