@@ -20,8 +20,7 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?&id=5604473&units=imperi
     
         let count = 0
         for (let i = 0; i < (jsObject.list.length); i++) {
-            let text = jsObject.list[i].dt_txt.split(" ");
-            if (text[1] == '18:00:00'){
+            if (jsObject.list[i].dt_txt.includes("18:00:00"));
                 var imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.list[i].weather[0].icon + '@2x.png';
                 var desc = jsObject.list[i].weather[0].description;
                 document.getElementById('weathericon'+count.toString()).setAttribute('src', imagesrc);
