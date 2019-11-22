@@ -24,10 +24,9 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?&id=5604473&units=imperi
             if (text[1] == '18:00:00'){
                 var imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '@2x.png';
                 var desc = jsObject.list[i].weather[0].description;
-                document.getElementById('imagesrc').textContent = imagesrc;
                 document.getElementById('weathericon'+count.toString()).setAttribute('src', imagesrc);
                 document.getElementById('weathericon'+count.toString()).setAttribute('alt', desc);
-                document.getElementById('temp'+count.toString()).textContent = jsObject.list[i].main.temp;
+                document.getElementById('temp'+count.toString()).textContent = Math.round(jsObject.list[i].main.temp);
                 count ++
             }}  
     });
