@@ -23,10 +23,10 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?&id=5604473&units=imperi
             if (jsObject.list[i].dt_txt.includes('18:00:00'));{
                 var imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.list[i].weather[0].icon + '@2x.png';
                 var desc = jsObject.list[i].weather[0].description;
-                document.getElementById('weathericon'+count.toString()).setAttribute('src', imagesrc);
-                document.getElementById('weathericon'+count.toString()).setAttribute('alt', desc);
-                document.getElementById('temp'+count.toString()).textContent = Math.round(jsObject.list[i].main.temp);
-                count ++
+                document.getElementById('weathericon'+count).setAttribute('src', imagesrc);
+                document.getElementById('weathericon'+count).setAttribute('alt', desc);
+                document.getElementById('temp'+count).textContent = Math.round(jsObject.list[i].main.temp);
+                count++;
             }}  
     });
 

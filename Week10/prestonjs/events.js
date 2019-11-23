@@ -4,16 +4,16 @@ fetch(requestURL)
 
 .then((jsonObject) => {
   const towns = jsonObject["towns"];
+  let card = document.createElement("section");
+  let span = document.createElement("span");
   for (let i = 0; i < towns.length; i++) {
       if (towns[i].name === "Preston"){
           let events = towns[i].events;
-          for (let c = 0; c < events.length; c++)
-            let card = document.createElement("section");
-            let span = document.createElement("span");
+          for (let j = 0; j < events.length; j++){
             let event = document.createElement("p");
-            event.textContent = events[c];
-            card.appendChild(span);
-            span.appendChild(event);
-            document.querySelector('div.card').appendChild(card);}
+            event.textContent = events[j];
+            span.appendChild(event);}
+        card.appendChild(span);
+        document.querySelector('div.card').appendChild(card);
 }}
 });
