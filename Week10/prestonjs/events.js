@@ -9,7 +9,7 @@ fetch(requestURL)
       if (towns[i].name === "Preston"){
           let events = towns[i].events;
           for (let j = 0; j < events.length; j++){
-            let event = document.createElement("p");
+            let event = document.createElement("h4");
             let townEvent = document.createElement("section");
             let span = document.createElement("span");
             let image= document.createElement("img");

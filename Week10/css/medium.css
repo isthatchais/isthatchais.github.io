@@ -108,7 +108,7 @@
         display: flex;
         flex-flow: row;
     }
-    .townEvent section:nth-child(3){
+    .townEvent section:nth-child(2){
         flex-flow: row-reverse;
     }
     .townEvent img{
