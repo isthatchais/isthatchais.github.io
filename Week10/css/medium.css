@@ -104,5 +104,18 @@
     .card span{
         width: 50%
     }
+    .townEvent section{
+        display: flex;
+        flex-flow: row;
+    }
+    .townEvent section:nth-child(3){
+        flex-flow: row-reverse;
+    }
+    .townEvent img{
+        width: 50%;
+    }
+    .townEvent span{
+        width: 50%
+    }
     
 }

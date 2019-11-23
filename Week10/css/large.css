@@ -37,4 +37,17 @@
     .card span{
         width: 100%
     }
+    .townEvent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .townEvent img{
+        width: 100%;
+    }
+    .townEvent section{
+        display: block;
+    }
+    .townEvent span{
+        width: 100%
+    }
 }

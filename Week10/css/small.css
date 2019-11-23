@@ -331,3 +331,27 @@ h4{
     font-size: .8rem;
     margin-bottom: 1rem;
 }
+.townEvent{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
+    background-color: #f2da3c;
+}
+.townEvent section span{
+    text-align: center;
+    align-items: center;
+}
+.townEvent img{
+    width: 100%;
+}
+.townEvent section{
+    display: flex;
+    flex-flow: column;
+}
+.townEvent section p{
+    line-height: 1.5rem;
+}

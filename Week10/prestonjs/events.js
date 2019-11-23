@@ -10,11 +10,15 @@ fetch(requestURL)
           let events = towns[i].events;
           for (let j = 0; j < events.length; j++){
             let event = document.createElement("p");
-            let card = document.createElement("section");
+            let townEvent = document.createElement("section");
             let span = document.createElement("span");
+            let image= document.createElement("img");
             event.textContent = events[j];
             span.appendChild(event);
-            card.appendChild(span);
-            document.querySelector('div.card').appendChild(card);}
+            townEvent.appendChild(span);
+            townEvent.appendChild(image);
+            image.setAttribute('src', 'images/event' +j+ '.jpg');
+            image.setAttribute('alt', + events[j]); 
+            document.querySelector('div.townEvent').appendChild(townEvent);}
 }}
 });
