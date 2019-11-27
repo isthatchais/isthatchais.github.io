@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+<head>
+    <title>Weather Works | Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CIT 160 weather site assignment weather site gallery page for Chais Chang CIT 230">
+    <link rel = "icon" href="images/favicon.ico">
+    <link href= "css/normalize.css" rel="stylesheet">
+    <link href= "css/small.css" rel="stylesheet">
+    <link href= "css/medium.css" rel="stylesheet">
+    <link href= "css/large.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "top">
+    <header>
+        <div>
+            <img id = icon src="images/Weather.png" alt="weather works icon">
+        </div>
+        <h1>Weather Works</h1>
+        <div class = "moto">We work hard even if the weather doesn't cooperate. </div>  
+    </header>
+    <nav>
+        <ul class = "navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li class = "active"><a href="gallery.html">Gallery</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main>
+        <h2>Image Gallery</h2>
+        <div class = "gridContainer">
+        <figure>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/climb300.jpg' alt='rocks trees and sky'>
+            <figcaption class = "caption">beautiful day in the canyon</figcaption>
+        </figure>
+        <figure>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/clouds300.jpg' alt='clouds in the sky'>
+            <figcaption class = "caption">awesome looking clouds in the morning</figcaption>
+        </figure>
+        <figure>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/jtm300.jpg' alt='storm coming in at the park'>
+            <figcaption class = "caption">storm coming in</figcaption>
+        </figure>
+        <figure>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/snow300.jpg' alt='lots of snow'>
+            <figcaption class = "caption">plenty of snow</figcaption>
+        </figure>
+        <figure>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/stormclouds300.jpg' alt='stormc clouds gathering'>
+            <figcaption class = "caption">storm coulds gathering</figcaption>
+        </figure>
+        <figure>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/sunny300.jpg' alt='clear and sunny'>
+            <figcaption class = "caption">clear and sunny</figcaption>
+        </figure>
+        <figure>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/trees300.jpg' alt='large trees'>
+            <figcaption class = "caption">big trees and clear sky</figcaption>
+        </figure>
+        <figure>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/clear300.jpg' alt='clear blue sky'>
+            <figcaption class = "caption">clear blue sky</figcaption>
+        </figure>
+        <figure>
+            <img class = "gridPicture" src='images/placeholder.png' data-src='images/bryce300.jpg' alt='hoodoos'>
+            <figcaption class = "caption">hoodoos on a clear day</figcaption>
+        </figure>
+    </div>
+    <br>
+    <br>
+    <div class = "contact">
+        <iframe class = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.9129898669!2d-111.62379160316786!3d42.661470635268834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1573339770255!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <div class = "contactinformation">
+            <p>Weather Works</p>
+            <p>39 West Onida St</p>
+            <p>Preston, ID 83263</p>
+            <br>
+            <p>(208) 555-0877</p>
+            <p>info@weather.works</p>
+            <a href = "https://twitter.com/?lang=en" target="_blank"><img class = "social" src="images/twitter.png" alt="twitter icon"></a><a href = "https://www.facebook.com/" target="_blank"><img class = "social" src="images/facebook.png" alt="facebook icon"></a><a href = "https://www.youtube.com/" target="_blank"><img class = "social" src="images/youtube.png" alt="youtube icon"></a>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>&copy;Weather Works | Caribou, Franklin, and Bear Lake Counties | <a href ="../index.html">Assignment Portal</a>
+        <br>
+        <span id="output"></span>
+        </p>
+    </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src = "js/lazyload.js"></script>
+        <script src = "js/navigation.js"></script>
+        <script src = "js/currentday.js"></script>
+        <script>
+            WebFont.load({ google: { families: [
+           'Anton', 'Varela Round'
+            ]}});
+        </script>
+        <script>pancakes()</script>
+</body>
+</html>

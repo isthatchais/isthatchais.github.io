@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang= "en-us">
 <head>
-    <title>Weather Works | Preston Idaho</title>
+    <title>Weather Works | Soda Springs Idaho</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Week 10 assignment weather site preston home page with api information for Chais Chang CIT 230">
+    <meta name="description" content="Week 11 assignment weather site Soda Springs page with api information for Chais Chang CIT 230">
     <link rel = "icon" href="images/favicon.ico">
     <link href= "css/normalize.css" rel="stylesheet">
     <link href= "css/small.css" rel="stylesheet">
@@ -14,9 +14,6 @@
 <body>
     <div class = "top">
     <header>
-        <div id ="pancakes">
-            Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
-        </div>
         <div class = "hdiv">
             <img id = icon src="images/Weather.png" alt="weather works icon">
         <div id = "htext">
@@ -28,18 +25,18 @@
     <nav>
         <ul class = "navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-            <li><a href="../Week9/index.html">Home</a></li>
-            <li class = "active"><a href="preston.html">Preston</a></li>
-            <li><a href="../index.html">Soda Springs</a></li>
-            <li><a href="../index.html">Fish Haven</a></li>
-            <li><a href="../Week7/gallery-7.html">Gallery</a></li>
-            <li><a href="../Week8/stormcenter.html">Storm Center</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li class = "active"><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
         </ul>
     </nav>
     </div>
     <main>
-        <h2>Preston Idaho</h2>
-        <p>The Happy Home of Napoleon Dynamite</p>
+        <h2>Soda Springs Idaho</h2>
+        <p>Historic Oregon Trail Oasis, The Soda is on Us</p>
         <div class = "hero">
             <picture>
                 <source srcset="images/town800.jpg" media="(min-width: 417px) and (max-width: 959px)">
@@ -106,14 +103,14 @@
         </div>
         <br>
         <br>
-        <h3>Preston Events</h3>
+        <h3>Soda Springs Events</h3>
         <div class = "coveredtowns">
             <div class = "townEvent"></div>
         </div>
         <br>
         <br>
         <div class = "contact">
-            <iframe class = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628256039!2d-111.9153445582212!3d42.09980531200505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1573340007266!5m2!1sen!2sus" width="600" height="450" allowfullscreen=""></iframe>
+            <iframe class = "map" src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.9129898669!2d-111.62379160316786!3d42.661470635268834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1574819662686!5m2!1sen!2sus" width="600" height="450" allowfullscreen=""></iframe>
             <div class = "contactinformation">
                 <p>Weather Works</p>
                 <p>39 West Onida St</p>
@@ -134,12 +131,10 @@
         </p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src = "prestonjs/prestonweatherapi.js"></script>
-    <script src = "prestonjs/currentday.js"></script>
-    <script src = "prestonjs/navigation.js"></script>
-    <script src = "prestonjs/pancakes.js"></script>
-    <script src = "prestonjs/events.js"></script>
-    <script>pancakes()</script>
+    <script src = "js/sodaspringsapi.js"></script>
+    <script src = "js/currentday.js"></script>
+    <script src = "js/navigation.js"></script>
+    <script src = "js/sodaspringsevents.js"></script>
     <script>
         WebFont.load({ google: { families: [
        'Anton', 'Varela Round'
