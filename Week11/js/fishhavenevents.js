@@ -17,7 +17,7 @@ fetch(requestURL)
             span.appendChild(event);
             townEvent.appendChild(span);
             townEvent.appendChild(image);
-            image.setAttribute('src', 'images/event' +j+ '.jpg');
+            image.setAttribute('src', 'images/fishevent' +j+ '.jpg');
             image.setAttribute('alt', + events[j]); 
             document.querySelector('div.townEvent').appendChild(townEvent);}
 }}
