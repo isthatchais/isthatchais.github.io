@@ -117,5 +117,17 @@
     .townEvent span{
         width: 50%
     }
-    
+    .fishtownEvent section{
+        display: flex;
+        flex-flow: row;
+    }
+    .fishtownEvent section:nth-child(even){
+        flex-flow: row-reverse;
+    }
+    .fishtownEvent img{
+        width: 50%;
+    }
+    .fishtownEvent span{
+        width: 50%
+    }
 }

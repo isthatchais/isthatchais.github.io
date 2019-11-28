@@ -352,6 +352,25 @@ h4{
     display: flex;
     flex-flow: column;
 }
-.townEvent section p{
-    line-height: 1.5rem;
+.fishtownEvent{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
+    background-color: #f2da3c;
 }
+.fishtownEvent section span{
+    text-align: center;
+    align-items: center;
+}
+.fishtownEvent img{
+    width: 100%;
+}
+.fishtownEvent section{
+    display: flex;
+    flex-flow: column;
+}
+

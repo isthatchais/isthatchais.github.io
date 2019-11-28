@@ -19,6 +19,6 @@ fetch(requestURL)
             townEvent.appendChild(image);
             image.setAttribute('src', 'images/fishevent' +j+ '.jpg');
             image.setAttribute('alt', + events[j]); 
-            document.querySelector('div.townEvent').appendChild(townEvent);}
+            document.querySelector('div.fishtownEvent').appendChild(townEvent);}
 }}
 });

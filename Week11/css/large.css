@@ -50,4 +50,17 @@
     .townEvent span{
         width: 100%
     }
+    .fishtownEvent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .fishtownEvent img{
+        width: 100%;
+    }
+    .fishtownEvent section{
+        display: block;
+    }
+    .fishtownEvent span{
+        width: 100%
+    }
 }
