@@ -373,4 +373,6 @@ h4{
     display: flex;
     flex-flow: column;
 }
-
+.terms{
+    background-color: whitesmoke;
+}
