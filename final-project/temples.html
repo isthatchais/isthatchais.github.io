@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+<head>
+    <title>Temple Inn and Suites | Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Final project Temple inn and suites site home page for Chais Chang CIT 230">
+    <link rel = "icon" href="images/favicon.ico">
+    <link href= "css/normalize.css" rel="stylesheet">
+    <link href= "css/small.css" rel="stylesheet">
+    <link href= "css/medium.css" rel="stylesheet">
+    <link href= "css/large.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "top">
+    <header>
+        <a href="index.html"><img id = icon src="images/Temple-logo-yellow.png" alt="Temple Inn and Suites Icon"></a>
+        <h1>Temple Inn and Suites</h1>
+        <div class = "moto">Helping to make forever families. </div>     
+    </header>
+    <nav>
+        <ul class = "navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class = "active"><a href= "temples.html">Temples</a></li>
+            <li><a href= "reservations.html">Reservations</a></li>
+            <li><a href= "services.html">Services</a></li>
+            <li><a href= "contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main>
+        <div class = "quote">
+            <p><i>I know your lives are busy. I know that you have much to do. But I make you a promise that if you will go to the house of the Lord, you will be blessed; life will be better for you.</i> - Gordon B. Hinckley</p>
+        </div>
+        <h2>Temples We Serve</h2>
+        <div class = "templegrid">
+            <section class = "billings">
+                <img src = "images/billings.jpg" alt = "photo of Billings Montana Temple">
+                <h3>Billings Montana Temple</h3>
+                <p>3100 Rim Point Dr</p>
+                <p>Billings, MT 59106</p>
+                <br>
+                <p>(1) 406-655-0607</p>
+                <br>
+                <p><a href = "https://www.churchofjesuschrist.org/temples/details/billings-montana-temple?lang=eng" target="_blank" rel="noreferrer noopener">Link to Temple Info and Email</a></p>
+                <h4>Typical Schedule</h4>
+                <p>Baptism: Tuesday to Saturday 7:30AM to 9:00PM</p>
+                <p>Initiatory: Tuesday to Saturday 7:30AM to 9:00PM</p>
+                <p>Sealing: Tuesday to Saturday 7:00AM to 9:00PM</p>
+                <p>Endowment: Tuesday to Saturday 7:00AM to 7:00PM</p>
+                <p>Sessions start at 7AM are are held every 90 minutes.</p>
+                <p>There is also one early session Tuesdays at 6AM.</p>
+                <h4>Services</h4>
+                <p>Clothing rental available</p>  
+                <p>Distribution center nearby</p>
+                <h4>Temple Closures</h4>
+                <div id = "billingsclose"></div>
+                <h4>History</h4>
+                <p>Temple Announced: August 30 1996</p>
+                <p>Groundbreaking: March 28 1998</p>
+                <p>Dedication: November 20 1999</p>
+                <h4>Weather Summary</h4>
+                <p>Currently: &nbsp<span id = "currently"></span></p>
+                <p>Temperature: &nbsp<span id = "currentTemp"></span>° F</p>
+                <p>Humidity: &nbsp<span id = "humidity"></span>%</p>
+                <p>Wind Speed: &nbsp<span id = "windSpeed"></span>MPH</p>
+                <p>Wind Chill: &nbsp<span id = "windChill"></span>° F</p>
+            </section>
+        </div>
+        <div class = "contact">
+            <div class = "contactinformation">
+                <p>Temple Inn and Suites</p>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814</p>
+                <br>
+                <p>(204) 555-0877</p>
+                <p>info@templeinn.com</p>
+            </div>
+            <div class = "mapdiv">
+                <iframe class = "map" title = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49623.63474610376!2d-77.15359630582671!3d38.98160471663261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7cbb76a24022d%3A0x26b279f76a2bcd0d!2sBethesda%2C%20MD!5e0!3m2!1sen!2sus!4v1576107278032!5m2!1sen!2sus" width="400" height="300" allowfullscreen=""></iframe>
+                </div>
+            <div class = "social">
+                <p>Connect with us on Social Media</p>
+                <a href = "https://twitter.com/?lang=en" target="_blank" rel="noreferrer noopener"><img class = "social" src="images/twitter.png" alt="twitter icon"></a><a href = "https://www.facebook.com/" target="_blank" rel="noreferrer noopener"><img class = "social" src="images/facebook.png" alt="facebook icon"></a><a href = "https://www.youtube.com/" target="_blank" rel="noreferrer noopener"><img class = "social" src="images/youtube.png" alt="youtube icon"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Temple Inn and Suites | Billings, Bismarck, Portland, and St Paul Temples | <a class = "none" href = "resource.html">Resource Reference</a>
+        <br>
+        <span id="output"></span>
+        </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src = "js/navigation.js"></script>
+    <script src = "js/currentday.js"></script>
+    <script src = "js/temples.js"></script>
+    <script>
+        WebFont.load({ google: { families: [
+       'Bree Serif', 'Questrial'
+        ]}});
+    </script>
+</body>
+</html>
