@@ -352,3 +352,7 @@ form label.top input:required:valid{
 .photogrid img{
     width: 100%;
 }
+.missionaryform label{
+    display: block;
+    max-width: 20rem;
+}

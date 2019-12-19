@@ -39,7 +39,7 @@
     }
     .contactinformation, .social, .map{
         width: 28%;
-        flex: 1 2 15em;
+        flex: 1 0 20em;
     }
     .contactinformation, .social{
         font-size: 1.1rem;
@@ -63,5 +63,10 @@
         top: .7rem;
         left: .7rem;
         background-color: rgba(63, 13, 18, 0.8);
+    }
+    .narrow{
+        width: 60%;
+        margin: auto;
+        align-self: center;
     }
 }
