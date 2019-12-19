@@ -339,14 +339,11 @@ form label.top input:required:valid{
     width: 100%;
 }
 .recptionlist{
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
     list-style-type: none;
 }
 .photogrid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: .4rem;
 }
 .photogrid img{
@@ -354,5 +351,15 @@ form label.top input:required:valid{
 }
 .missionaryform label{
     display: block;
-    max-width: 20rem;
+    max-width: 13rem;
+    box-sizing: border-box;
+}
+.missionaryform{
+    margin: 0 auto;
+    width: 90%;
+}
+.narrow{
+    width: 100%;
+    margin: 0 auto;
+    align-self: center;
 }

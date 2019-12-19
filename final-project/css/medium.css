@@ -39,7 +39,7 @@
     }
     .contactinformation, .social, .map{
         width: 28%;
-        flex: 1 0 20em;
+        flex: 1 0 15em;
     }
     .contactinformation, .social{
         font-size: 1.1rem;
@@ -64,9 +64,19 @@
         left: .7rem;
         background-color: rgba(63, 13, 18, 0.8);
     }
+    .recptionlist{
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        list-style-type: none;
+    }
+    .photogrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .narrow{
-        width: 60%;
-        margin: auto;
-        align-self: center;
+        width: 70%;
+    }
+    .missionaryform label{
+        max-width: 20rem;
     }
 }
