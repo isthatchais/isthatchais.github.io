@@ -82,10 +82,23 @@
             <li>Desserts: Chocolate Cake, Blueberry Crepes, Peach Cobbler</li> 
             <li>Soft-drinks: Pepsi products</li>
         </ul>
-        <h4>Please contact us for pricing and availability</h4>
-        <p>(204) 555-0877</p>
-        <p>info@templeinn.com</p>
         </div>
+        <div class = "narrow">
+            <h3>Contact Us For More Information</h3>
+            <form method="get" action="thanks.html">
+                <fieldset class ="missionaryform">
+                    <legend>Personal Information</legend>
+                    <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z ]{5,}" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder = "you@email.com" required></label>
+                    <label class="top">Phone Number <input type="tel" name="phone"></label>
+                    <label class="top">
+                        Questions and Comments
+                        <textarea class="sbs" name = "information" id = "information" rows="6" cols="50" placeholder="Type your comments here..."></textarea>
+                    </label>
+                    <input type="submit" value="Get Information" class="submitBtn">
+                </fieldset>
+            </form>
+            </div>
             <ul class = "servicesnavigation">
                 <li><a href="services.html">Return to Services</a></li>
             </ul>
