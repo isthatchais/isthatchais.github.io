@@ -53,5 +53,15 @@
     .templegrid{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+    }
+    .formcontainer{
+        width: 75%;
+    }
+    .slist{
+        position: absolute;
+        top: .7rem;
+        left: .7rem;
+        background-color: rgba(63, 13, 18, 0.8);
     }
 }

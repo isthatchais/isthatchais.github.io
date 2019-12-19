@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+<head>
+    <title>Temple Inn and Suites | Services</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Final project Temple inn and suites site home page for Chais Chang CIT 230">
+    <link rel = "icon" href="images/favicon.ico">
+    <link href= "css/normalize.css" rel="stylesheet">
+    <link href= "css/small.css" rel="stylesheet">
+    <link href= "css/medium.css" rel="stylesheet">
+    <link href= "css/large.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+    <header>
+        <a href="index.html"><img id = icon src="images/Temple-logo-yellow.png" alt="Temple Inn and Suites Icon"></a>
+        <h1>Temple Inn and Suites</h1>
+        <div class = "moto">Helping to make forever families. </div>     
+    </header>
+    <nav>
+        <ul class = "navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href= "temples.html">Temples</a></li>
+            <li><a href= "reservations.html">Reservations</a></li>
+            <li class = "active"><a href= "services.html">Services</a></li>
+            <li><a href= "contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main>
+        <div class = "quote">
+            <p><i>“No member of the Church has received the ultimate which this Church had to give until he or she has received his or her temple blessings in the house of the Lord.”</i> — Gordon B. Hilckley</p>
+        </div>
+        <h2>Services</h2>
+        <div class = "hero">
+            <picture>
+                <source srcset="images/serviceshero800.jpg" media="(min-width: 417px) and (max-width: 959px)">
+                <source srcset="images/serviceshero.jpg" media="(min-width: 960px)">
+                <img class = "herophoto" src="images/serviceshero450.jpg" alt="over looking the town from the mountain">
+            </picture>
+            <div class = "slist">
+                <h3 class = "sheading">Free Amenities</h3>
+                <div class = "sintro">
+                    <ul>
+                        <li>Breakfast</li>
+                        <li>Exercise/workout room</li>
+                        <li>Indoor pool</li>
+                        <li>WiFi high-speed internet access</li> 
+                        <li>smart TVs</li>
+                        <li>Parking</li>
+                        <li>Temple shuttle</li>
+                        <li>Family history consultation</li>
+                        <li>Family ordinance card service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class = "article">
+        <h3 class = "articletitle">Specialized Services</h3>
+            <ul>
+                <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes.</li>
+                <li>A playroom and low-cost, short-term babysitting services for the children of patrons.</li>
+                <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries.</li>
+                <li>Temple history themed reception and sitting area.</li> 
+                <li>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving.</li>
+                <li>A family search center that supports family search and ordinance work.</li>
+                <li>Non smoking and durg free grounds and facilities.</li>
+            </ul>
+        </div>
+            <ul class = "servicesnavigation">
+                <li><a href="services-reception.html">More About Reception Hall</a></li>
+                <li><a href= "services-full-time.html">More About Full-time Temple Missionaries</a></li>
+            </ul>
+        <div class = "contact">
+            <div class = "contactinformation">
+                <p>Temple Inn and Suites</p>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814</p>
+                <br>
+                <p>(204) 555-0877</p>
+                <p>info@templeinn.com</p>
+            </div>
+            <div class = "mapdiv">
+                <iframe class = "map" title = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49623.63474610376!2d-77.15359630582671!3d38.98160471663261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7cbb76a24022d%3A0x26b279f76a2bcd0d!2sBethesda%2C%20MD!5e0!3m2!1sen!2sus!4v1576107278032!5m2!1sen!2sus" width="400" height="300" allowfullscreen=""></iframe>
+                </div>
+            <div class = "social">
+                <p>Connect with us on Social Media</p>
+                <a href = "https://twitter.com/?lang=en" target="_blank" rel="noreferrer noopener"><img class = "social" src="images/twitter.png" alt="twitter icon"></a><a href = "https://www.facebook.com/" target="_blank" rel="noreferrer noopener"><img class = "social" src="images/facebook.png" alt="facebook icon"></a><a href = "https://www.youtube.com/" target="_blank" rel="noreferrer noopener"><img class = "social" src="images/youtube.png" alt="youtube icon"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Temple Inn and Suites | Billings, Bismarck, Portland, and St Paul Temples | <a class = "none" href = "resource.html">Resource Reference</a>
+        <br>
+        <span id="output"></span>
+        <br>
+        Weather information provided by openweathermap.org
+        </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src = "js/navigation.js"></script>
+    <script src = "js/currentday.js"></script>
+    <script>
+        WebFont.load({ google: { families: [
+       'Bree Serif', 'Questrial'
+        ]}});
+    </script>
+</body>
+</html>

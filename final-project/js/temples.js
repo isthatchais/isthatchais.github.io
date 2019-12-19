@@ -26,7 +26,7 @@ fetch(requestURL)
           document.querySelector('div.bismarckclose').appendChild(bismarckclose);
         }
     }
-    /*if(temples[i].name === "Portland"){
+      if(temples[i].name === "Portland"){
         let close = temples[i].close;
         let portlandclose = document.createElement("section");
         for (let j = 0; j < close.length; j++){
@@ -36,7 +36,7 @@ fetch(requestURL)
           document.querySelector('div.portlandclose').appendChild(portlandclose);
         }
     }
-    if(temples[i].name === "St. Paul"){
+      if(temples[i].name === "St. Paul"){
         let close = temples[i].close;
         let stpaulclose = document.createElement("section");
         for (let j = 0; j < close.length; j++){
@@ -45,6 +45,6 @@ fetch(requestURL)
           stpaulclose.appendChild(closed);
           document.querySelector('div.stpaulclose').appendChild(stpaulclose);
         }
-    }*/
+    }
 }
 });
