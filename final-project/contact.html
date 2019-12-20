@@ -25,19 +25,37 @@
             <li><a href= "temples.html">Temples</a></li>
             <li><a href= "reservations.html">Reservations</a></li>
             <li><a href= "services.html">Services</a></li>
-            <li><a href= "contact.html">Contact</a></li>
+            <li class = "active"><a href= "contact.html">Contact</a></li>
         </ul>
     </nav>
     </div>
     <main>
+        <div class = "quote">
+            <p><i>“Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you:  For every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened”</i> — Matthew 7:7-8</p>
+        </div>
+        <h2>Contact Us</h2>
         <div class = "article">
-        <h2 class = "articletitle">Thank You</h2>
-            <p class = "atricletext">
-                Your reservation has been submitted sucessfuly.  You will hear from us soon to confirm your reservation. 
-            </p>
-            <br>
-            <a class="noTextDecoration" href="index.html"><div class = "return">Return to Home</div></a>
-            <br>
+                <h3 class = "articletitle">We Want to Hear From You</h3>
+                    <p class = "atricletext">
+                        We are always working to improve our services, and to make them available for more people. Please take the time to contact us with any and all questions or concerns. You can call or text us, send us an email, fill out this form, connect with us on social media, or send us a letter. We would love it if you dropped by.
+                    </p>
+                    <br>
+        <div class = "contactus">
+            <form method="get" action="thanks.html">
+                <fieldset class ="missionaryform">
+                    <legend> Contact </legend>
+                    <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z ]{5,}" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder = "you@email.com" required></label>
+                    <label class="top">Phone Number* <input type="tel" name="phone" required></label>
+                    <label class="top">
+                        Questions and Comments
+                        <textarea class="full" name = "information" id = "information" rows="6" cols="50" placeholder="Type your comments here..."></textarea>
+                    </label>
+                    <input type="submit" value="Contact Us" class="submitBtn">
+                </fieldset>
+            </form>
+            </div>
+        </div>
         <div class = "contact">
             <div class = "contactinformation">
                 <p>Temple Inn and Suites</p>
@@ -74,3 +92,5 @@
     </script>
 </body>
 </html>
+
+
